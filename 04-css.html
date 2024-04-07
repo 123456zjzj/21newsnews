@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS盒模型、背景、文字排版</title>
+    <style>
+        body{
+            margin: 20 ;
+            padding: 20;
+        }
+        div {
+            background-image: linear-gradient(rgb(162, 230, 254), rgb(241, 247, 253));
+            width: 200px;
+            height: 200px;
+            border: 0px rgb(45, 132, 226) solid;
+            margin-top: 100px;
+            margin-bottom: 3em;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            border-radius: 10px 20px;
+            box-shadow: 30px 10px 3px rgb(218, 209, 196);
+
+        }
+        div p {
+            margin: 0;
+            line-height: 200px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 900;
+            color: rgb(118, 116, 116);
+        }
+        .text {
+           text-indent: 2em; 
+           line-height: 1.8;
+           font-family: "宋体";
+           font-size: 20px;
+           font-weight: 700;
+           text-align: justify;
+           letter-spacing: 1px;
+        }
+        span {
+            text-decoration: rgb(77, 175, 224) wavy underline;
+            letter-spacing: 10px;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>2023</p>
+    </div>
+    <p class="text">
+        南湘端着红酒杯向顾里发难：“吵什么吵，就这么一点事。<span>今天我们大家之所以欢聚在这里</span>，是为我们从小到大的好朋友顾里，庆祝她的生日。今天，我要敬我的好姐妹，感谢她，分享了我的悲惨人生。我也发自内心地祝愿她，从此以后，和我的人生一样，开始发烂发臭！”
+    </p>
+    
+</body>
+</html>
