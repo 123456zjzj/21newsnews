@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netherlands Flag</title>
+  <style>
+    .flag {
+      width: 300px;
+      height: 200px;
+      background-color: #21468B;
+      position: relative;
+    }
+    .stripe {
+      width: 100%;
+      height: 33.33%;
+    }
+    .stripe:nth-child(2) {
+      background-color: #FFFFFF;
+    }
+    .stripe:nth-child(3) {
+      background-color: #AE1C28;
+    }
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+    <div class="stripe"></div>
+  </div>
+</body>
+</html>
+
+<p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS变形案例一：平移效果</title>
+    <style>
+        .square {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 253, 138);
+            transition: transform 0.3s ease;
+        }
+        .square:hover {
+            transform: translate(50px, 50px); /* 鼠标悬停时向右下方平移50像素 */
+        }
+    </style>
+</head>
+<body>
+
+<div class="square"></div>
+
+</body>
+</html>
+</p>
+
+<p><!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CSS变形案例二：旋转效果</title>
+      <style>
+          .circle {
+              width: 100px;
+              height: 100px;
+              background-color: rgb(127, 222, 177);
+              transition: transform 0.3s ease;
+          }
+          .circle:hover {
+              transform: rotate(45deg); /* 鼠标悬停时旋转45度 */
+          }
+      </style>
+  </head>
+  <body>
+  
+  <div class="circle"></div>
+  
+  </body>
+  </html></p>
+
+  <p><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS变形案例三：缩放效果</title>
+        <style>
+            .triangle {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(105, 116, 181);
+                transition: transform 0.3s ease;
+            }
+            .triangle:hover {
+                transform: scale(1.5); /* 鼠标悬停时放大1.5倍 */
+            }
+        </style>
+    </head>
+    <body>
+    
+    <div class="triangle"></div>
+    
+    </body>
+    </html></p>
