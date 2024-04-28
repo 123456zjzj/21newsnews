@@ -5,13 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>小猫图鉴生成器</title>
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f4f0;
+    }
+
     .container {
       text-align: center;
       margin-top: 50px;
     }
 
+    h1 {
+      font-size: 2rem;
+      color: #333;
+    }
+
+    #generateBtn {
+      background-color: #ff9f43;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #generateBtn:hover {
+      background-color: #fdcb6e;
+    }
+
     #catInfo {
       margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .cat-icon {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .cat-info {
+      margin-bottom: 15px;
+    }
+
+    strong {
+      color: #ff6b6b;
     }
   </style>
 </head>
